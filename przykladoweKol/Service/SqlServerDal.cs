@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace przykladoweKol.Service
 {
-    public class SqlServerDal : Controller, IAnimalDal
+    public class SqlServerDal : IAnimalDal
     {
         private const string ConString = "Data Source=db-mssql;Initial Catalog=s18928;Integrated Security=True";
 
